@@ -1,0 +1,211 @@
+{
+  "ui": {
+    "lang": "zh-CN",
+    "title": "张杰栋 · 机器人与具身智能",
+    "description": "张杰栋的个人主页：形状感知运动规划、机器人学习与计算物理。",
+    "otherPage": "index.html",
+    "languageLabel": "EN",
+    "languageAria": "Switch to English",
+    "home": "首页",
+    "research": "研究",
+    "work": "项目",
+    "path": "经历",
+    "contact": "联系",
+    "index": "← 返回目录",
+    "theme": "切换明暗主题",
+    "heroTag": "运动规划 · 机器人学习 · 计算物理",
+    "heroName": "张杰栋",
+    "heroLead": "理解机器人的形状，也探索它能够走出的路径。",
+    "heroAbout": "我关注形状感知运动规划与机器人学习，本科就读于东华大学应用物理学，并在上海交通大学跨校辅修数学与应用数学。我喜欢从算法出发，连接硬件，再把想法放到真实机器人上验证。",
+    "heroCurrent": "目前在上海交通大学工研院—物智进化，以及香港科技大学（广州）PAIRS 实验室开展机器人科研实习。",
+    "email": "邮件联系 ↗",
+    "cv": "中文简历 ↗",
+    "recent": "近期动态",
+    "researchDirections": "研究兴趣",
+    "selectedWork": "科研与项目",
+    "openDetail": "查看项目详情 ↗",
+    "experience": "实习与实践",
+    "education": "教育背景",
+    "beyond": "研究之外",
+    "piano": "古典钢琴，是科研与工程之外一直保持的兴趣。",
+    "getInTouch": "保持联系",
+    "openTo": "期待交流",
+    "location": "中国 · 上海",
+    "prev": "← 上一项",
+    "next": "下一项 →",
+    "honors": "荣誉与奖项",
+    "backTop": "返回顶部 ↑",
+    "footer": "© 2026 · 几何、拓扑与分形",
+    "portraitAlt": "张杰栋个人照片",
+    "fieldnotes": "走出实验室",
+    "fieldnotesIntro": "与其他创客一起动手、交流，也在现场发现新的问题。",
+    "download": "下载中文简历 ↗"
+  },
+  "research": [
+    {
+      "n": "01",
+      "title": "形状感知运动规划",
+      "tag": "几何 · SVSDF",
+      "body": "在碰撞感知规划中考虑机器人的完整外形，探索底盘与负载耦合、多连杆系统的运动规划。"
+    },
+    {
+      "n": "02",
+      "title": "机器人学习",
+      "tag": "强化学习 · 控制",
+      "body": "围绕运动与全身控制开展强化学习实验，使用教师—学生蒸馏和历史信息估计等方法。"
+    },
+    {
+      "n": "03",
+      "title": "视觉—语言—动作模型",
+      "tag": "机器人数据 · 真机验证",
+      "body": "开展模型适配、数据采集与清洗、微调，并在机器人硬件上进行测试与验证。"
+    },
+    {
+      "n": "04",
+      "title": "计算物理",
+      "tag": "Taichi · PyTorch · AI4S",
+      "body": "开发物理模拟与可复现的科研流程，把论文方法、可运行实验和分析图表连接起来。"
+    }
+  ],
+  "projects": [
+    {
+      "id": "svsdf",
+      "year": "2026.08 — 至今",
+      "role": "科研 · 算法复现",
+      "name": "形状感知运动规划：SVSDF 复现",
+      "body": "基于浙江大学 FAST Lab 公开代码复现 SVSDF 无碰撞运动规划，已完成 SE(2) 规划在机器狗上的实现，目前正在推进 SE(3) 无人机轨迹规划，并探索底盘与负载耦合、多连杆系统的碰撞感知规划。",
+      "tags": [
+        "SVSDF",
+        "运动规划",
+        "SE(2) / SE(3)"
+      ]
+    },
+    {
+      "id": "atec",
+      "year": "2026.05 — 至今",
+      "role": "队长 · 强化学习",
+      "name": "ATEC 2026 机器人挑战赛 · ATEpi 队",
+      "body": "负责线上赛强化学习实验和算法流程架构设计，复现 HIMLoco、Extreme Parkour 与全身控制流程，结合教师—学生蒸馏和历史信息估计开展训练。线上赛障碍穿越获得满分 36/36，L1 终榜总榜第十六名，赛道 2 总分 52。",
+      "tags": [
+        "强化学习",
+        "全身控制",
+        "Sim2Real"
+      ]
+    },
+    {
+      "id": "agentic-md",
+      "year": "2025.01 — 2026.06",
+      "role": "项目负责人 · 模拟引擎开发",
+      "name": "各向异性复杂等离子体数值模拟",
+      "body": "负责基于 Taichi / PyTorch 的物理模拟引擎开发，开展各向异性复杂等离子体研究与文献复现；构建 memU 记忆系统与 Claude-Scientist 后端，实现实验数据自动归档。完成国家级大学生创新训练项目与本科毕业设计，支持国际空间站数据处理任务交付。",
+      "tags": [
+        "Taichi",
+        "分子动力学",
+        "AI4S"
+      ],
+      "image": "assets/plasma-simulation.webp",
+      "caption": "公开项目仓库中的仿真结果：复现 Ivlev 等人 PRX（2015）研究中的双温动力学。",
+      "link": "github.com/thematteroftime/agentic-md-for-dummies"
+    },
+    {
+      "id": "agentcraft",
+      "year": "2025.07 — 2026.01",
+      "role": "团队负责人 · 整体设计与实现",
+      "name": "Agentcraft：AR / AI 眼镜应用",
+      "body": "将“二维转三维”的产品目标拆解为 Tripo3D、3DGS 与 AI 眼镜的技术实现路径，整合 WorldGen、World Labs 工具与 API，完成两个原型构想验证。带队获得 Rokid Spatial Joy 2025 全球 AR & AI 开发大赛技术创新奖。",
+      "tags": [
+        "3DGS",
+        "AR",
+        "产品原型"
+      ],
+      "image": "assets/rokid-award.webp",
+      "caption": "Agentcraft 团队获得的 Rokid Spatial Joy 2025 技术创新奖奖杯与证书，颁奖时间为 2026 年 1 月。"
+    }
+  ],
+  "experience": [
+    {
+      "id": "pairs",
+      "year": "2026.08 — 至今",
+      "org": "香港科技大学（广州）· PAIRS 实验室",
+      "role": "科研实习生 · 线上兼职",
+      "body": "开展主动视觉追踪研究，采集、清洗与整理原始数据集；使用 Piper 进行 PI0 / PI0.5 真机训练和测试，使用 Qwen-4B 开展微调与数据生成。"
+    },
+    {
+      "id": "evomind",
+      "year": "2026.07 — 至今",
+      "org": "上海交通大学工研院—物智进化",
+      "role": "机器人科研实习生 · 线下全职",
+      "body": "研究 starVLA 架构并适配不同基准任务；完成扩展七轴 SO101 机械臂标定、Jetson Orin 部署及 Quest 3 遥操作 OPENARM 的数据链路接入。作为 Evo-RL 第五作者，负责全部图表、后期撰写与细节审查，论文已投稿 ICRA 2027。"
+    },
+    {
+      "id": "rokid",
+      "year": "2025.09 — 2026.07",
+      "org": "Rokid（杭州灵伴科技有限公司）",
+      "role": "校园大使",
+      "body": "支持 AR 技术分享、校园联络与 XR 相关合作；在 S 创、Google 开发者大会、AdventureX 等活动中，与开发者及用户交流使用需求。"
+    },
+    {
+      "id": "fluxverse",
+      "year": "2025.10 — 至今",
+      "org": "南客松 S2 · Fluxverse",
+      "role": "赞助协调 · 活动运营",
+      "body": "加入南京大学创客俱乐部，协助黑客松组织、赞助方沟通与资源协调，参与 500 余人创客社区的日常协作与活动运营。"
+    }
+  ],
+  "education": [
+    {
+      "year": "2022.09 — 2026.06",
+      "school": "东华大学",
+      "deg": "应用物理学（新能源与微电子方向）· 理学学士",
+      "courses": "量子力学 · 电动力学 · 光学 · 数学物理方法 · 最优化理论与方法"
+    },
+    {
+      "year": "2024.02 — 2026.06",
+      "school": "上海交通大学",
+      "deg": "数学与应用数学 · 跨校辅修，取得辅修专业证书",
+      "courses": "偏微分方程 · 微分几何 · 拓扑学 · 抽象代数 · 随机过程"
+    }
+  ],
+  "recent": [
+    {
+      "date": "2026·08",
+      "text": "开始 SVSDF 复现，并在 PAIRS 实验室开展线上科研实习。"
+    },
+    {
+      "date": "2026·07",
+      "text": "ATEpi 队获得 ATEC 线上赛 L1 终榜总榜第十六名；开始在上海交大工研院—物智进化实习。"
+    },
+    {
+      "date": "2026·06",
+      "text": "完成国家级大学生创新训练项目，以及复杂等离子体模拟方向的本科毕业设计。"
+    },
+    {
+      "date": "2026·01",
+      "text": "与 Agentcraft 团队获得 Rokid Spatial Joy 2025 技术创新奖。"
+    }
+  ],
+  "openTo": [
+    "科研合作",
+    "博士深造机会",
+    "机器人创业交流"
+  ],
+  "honors": [
+    "Rokid Spatial Joy 2025 全球 AR & AI 开发大赛 · 技术创新奖（2026.01）",
+    "2024 年全国大学生数学建模竞赛 · 上海市二等奖，本科组（2024.12）",
+    "第九届上海市大学生物理学术竞赛 · 三等奖（2024.07）",
+    "国家级大学生创新训练项目 · 项目负责人，已结题（2026.06）",
+    "深圳科创学院 · 入选种子计划"
+  ],
+  "gallery": [
+    {
+      "image": "assets/hackathon-building.webp",
+      "alt": "上海交通大学 AI Hackathon Tour 现场与队友协作",
+      "caption": "AI Hackathon Tour · 上海交通大学站。与队友一起讨论、调试原型。"
+    },
+    {
+      "image": "assets/hackathon-team.webp",
+      "alt": "上海交通大学 AI Hackathon Tour 活动现场合影",
+      "caption": "AI Hackathon Tour · 上海交通大学站。活动现场留影。"
+    }
+  ]
+}

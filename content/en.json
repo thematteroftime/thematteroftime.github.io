@@ -1,0 +1,211 @@
+{
+  "ui": {
+    "lang": "en",
+    "title": "Jiedong Zhang · Robotics & Embodied AI",
+    "description": "Jiedong Zhang: shape-aware motion planning, robot learning and computational physics.",
+    "otherPage": "zh.html",
+    "languageLabel": "中文",
+    "languageAria": "Switch to Chinese",
+    "home": "Home",
+    "research": "Research",
+    "work": "Work",
+    "path": "Experience",
+    "contact": "Contact",
+    "index": "← Index",
+    "theme": "Toggle light / dark theme",
+    "heroTag": "Motion Planning · Robot Learning · Computational Physics",
+    "heroName": "Jiedong<br>Zhang",
+    "heroLead": "From the shape of a robot to the path it can follow.",
+    "heroAbout": "I work on shape-aware motion planning and robot learning, with a background in applied physics and a cross-university minor in mathematics. I enjoy building algorithms, connecting hardware and testing ideas on real robots.",
+    "heroCurrent": "Research intern at SJTU IITI · EvoMind and HKUST (Guangzhou) PAIRS Lab, working on robot learning and motion planning.",
+    "email": "Email ↗",
+    "cv": "Chinese CV ↗",
+    "recent": "Recent",
+    "researchDirections": "Research directions",
+    "selectedWork": "Selected work",
+    "openDetail": "Explore projects ↗",
+    "experience": "Experience",
+    "education": "Education",
+    "beyond": "Beyond research",
+    "piano": "Classical piano — a continuing interest alongside research and engineering.",
+    "getInTouch": "Get in touch",
+    "openTo": "Open to",
+    "location": "Shanghai, China",
+    "prev": "← Previous",
+    "next": "Next →",
+    "honors": "Selected honors",
+    "backTop": "Back to top ↑",
+    "footer": "© 2026 · geometry, topology & fractals",
+    "portraitAlt": "Portrait of Jiedong Zhang",
+    "fieldnotes": "Outside the lab",
+    "fieldnotesIntro": "Building, sharing and learning with other makers.",
+    "download": "Download Chinese CV ↗"
+  },
+  "research": [
+    {
+      "n": "01",
+      "title": "Shape-Aware Motion Planning",
+      "tag": "Geometry · SVSDF",
+      "body": "Collision-aware planning that accounts for the robot’s full shape, with an interest in articulated systems and coupled base–payload motion."
+    },
+    {
+      "n": "02",
+      "title": "Robot Learning",
+      "tag": "Reinforcement Learning · Control",
+      "body": "Reinforcement-learning experiments, teacher–student distillation and history-based estimation for locomotion and whole-body control."
+    },
+    {
+      "n": "03",
+      "title": "Vision–Language–Action",
+      "tag": "Robot Data · Real-Robot Evaluation",
+      "body": "Model adaptation, dataset collection and cleaning, fine-tuning, and evaluation on robot hardware."
+    },
+    {
+      "n": "04",
+      "title": "Computational Physics",
+      "tag": "Taichi · PyTorch · AI4S",
+      "body": "Physics simulation and reproducible workflows that connect published methods, executable experiments and analysis figures."
+    }
+  ],
+  "projects": [
+    {
+      "id": "svsdf",
+      "year": "2026.08 —",
+      "role": "Research · Reproduction",
+      "name": "Shape-Aware Motion Planning",
+      "body": "Reproducing SVSDF collision-free motion planning from FAST Lab open-source code. Implemented SE(2) planning on a quadruped; SE(3) UAV trajectory planning is in progress. Exploring collision-aware planning for coupled base–payload and articulated systems.",
+      "tags": [
+        "SVSDF",
+        "Motion Planning",
+        "SE(2) / SE(3)"
+      ]
+    },
+    {
+      "id": "atec",
+      "year": "2026.05 —",
+      "role": "Team Lead · Reinforcement Learning",
+      "name": "ATEC 2026 · Team ATEpi",
+      "body": "Led reinforcement-learning experiments and algorithm pipeline design. Reproduced HIMLoco, Extreme Parkour and whole-body control, using teacher–student distillation and history-based estimation. Scored 36/36 in obstacle traversal; placed 16th overall on the online L1 leaderboard, with a Track 2 score of 52.",
+      "tags": [
+        "Reinforcement Learning",
+        "Whole-Body Control",
+        "Sim2Real"
+      ]
+    },
+    {
+      "id": "agentic-md",
+      "year": "2025.01 — 2026.06",
+      "role": "Project Lead · Simulation Engine",
+      "name": "Anisotropic Complex-Plasma Simulation",
+      "body": "Developed a Taichi/PyTorch simulation engine for anisotropic complex plasma and reproduced published research. Built experiment-data archiving tools with memU and the Claude-Scientist backend. Completed a national-level undergraduate innovation project and graduation thesis, supporting ISS data-processing work.",
+      "tags": [
+        "Taichi",
+        "Molecular Dynamics",
+        "AI4S"
+      ],
+      "image": "assets/plasma-simulation.webp",
+      "caption": "A simulation result from my public project repository: two-temperature dynamics in a reproduction of Ivlev et al., PRX (2015).",
+      "link": "github.com/thematteroftime/agentic-md-for-dummies"
+    },
+    {
+      "id": "agentcraft",
+      "year": "2025.07 — 2026.01",
+      "role": "Team Lead · Design & Implementation",
+      "name": "Agentcraft · AR / AI Glasses",
+      "body": "Designed and implemented a 2D-to-3D interaction pipeline using Tripo3D, 3DGS and AI glasses. Integrated WorldGen and World Labs tools and APIs to validate two prototypes. The team received the Technical Innovation Award at Rokid Spatial Joy 2025.",
+      "tags": [
+        "3DGS",
+        "AR",
+        "Product Prototyping"
+      ],
+      "image": "assets/rokid-award.webp",
+      "caption": "Agentcraft’s trophy and certificate for the Rokid Spatial Joy 2025 Technical Innovation Award, received in January 2026."
+    }
+  ],
+  "experience": [
+    {
+      "id": "pairs",
+      "year": "2026.08 —",
+      "org": "HKUST (Guangzhou) · PAIRS Lab",
+      "role": "Research Intern · Remote / Part-time",
+      "body": "Collected, cleaned and organized active visual tracking data. Trained and tested PI0 / PI0.5 on Piper; used Qwen-4B for fine-tuning and data generation."
+    },
+    {
+      "id": "evomind",
+      "year": "2026.07 —",
+      "org": "SJTU IITI · EvoMind",
+      "role": "Robotics Research Intern · Onsite / Full-time",
+      "body": "Adapted starVLA to benchmark tasks, calibrated an extended seven-axis SO101 arm, deployed Jetson Orin, and connected Quest 3 teleoperation to OPENARM. Fifth author of Evo-RL, submitted to ICRA 2027; contributed figures, manuscript preparation and detailed review."
+    },
+    {
+      "id": "rokid",
+      "year": "2025.09 — 2026.07",
+      "org": "Rokid",
+      "role": "Campus Ambassador",
+      "body": "Supported AR technical sharing, campus liaison and XR collaboration. Discussed developer and user needs at S-Startup, Google DevFest and AdventureX."
+    },
+    {
+      "id": "fluxverse",
+      "year": "2025.10 —",
+      "org": "南客松 S2 · Fluxverse",
+      "role": "Sponsorship Coordination · Community Operations",
+      "body": "Helped organize hackathons through the NJU Maker Club, coordinated sponsorship resources, and supported collaboration in a maker community of more than 500 members."
+    }
+  ],
+  "education": [
+    {
+      "year": "2022.09 — 2026.06",
+      "school": "Donghua University",
+      "deg": "B.Sc. · Applied Physics (New Energy & Microelectronics)",
+      "courses": "Quantum Mechanics · Electrodynamics · Optics · Mathematical Physics · Optimization"
+    },
+    {
+      "year": "2024.02 — 2026.06",
+      "school": "Shanghai Jiao Tong University",
+      "deg": "Mathematics & Applied Mathematics · Cross-university Minor Certificate",
+      "courses": "PDEs · Differential Geometry · Topology · Abstract Algebra · Stochastic Processes"
+    }
+  ],
+  "recent": [
+    {
+      "date": "2026·08",
+      "text": "Started SVSDF reproduction and a remote research internship at PAIRS Lab."
+    },
+    {
+      "date": "2026·07",
+      "text": "ATEpi placed 16th overall on the ATEC online L1 leaderboard; started an internship at SJTU IITI · EvoMind."
+    },
+    {
+      "date": "2026·06",
+      "text": "Completed a national-level undergraduate innovation project and graduation thesis in complex-plasma simulation."
+    },
+    {
+      "date": "2026·01",
+      "text": "Received the Technical Innovation Award with Agentcraft at Rokid Spatial Joy 2025."
+    }
+  ],
+  "openTo": [
+    "Research collaborations",
+    "PhD opportunities",
+    "Robotics ventures"
+  ],
+  "honors": [
+    "Rokid Spatial Joy 2025 · Technical Innovation Award — January 2026",
+    "China Undergraduate Mathematical Contest in Modeling · Shanghai Second Prize — December 2024",
+    "9th Shanghai Undergraduate Physics Tournament · Third Prize — July 2024",
+    "National Undergraduate Innovation Training Project · Project lead, completed June 2026",
+    "Shenzhen InnoX Academy · Selected for the Seed Program"
+  ],
+  "gallery": [
+    {
+      "image": "assets/hackathon-building.webp",
+      "alt": "Hands-on collaboration at the AI Hackathon Tour, Shanghai Jiao Tong University",
+      "caption": "AI Hackathon Tour · Shanghai Jiao Tong University. Discussing and building a prototype with teammates."
+    },
+    {
+      "image": "assets/hackathon-team.webp",
+      "alt": "Photo at the Shanghai Jiao Tong University AI Hackathon Tour",
+      "caption": "AI Hackathon Tour · Shanghai Jiao Tong University. A moment from the event."
+    }
+  ]
+}
