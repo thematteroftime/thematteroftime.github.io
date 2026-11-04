@@ -20,7 +20,7 @@ The language switch retains the current project route and reading position. Both
 
 ## Image provenance
 
-- `portrait.webp`: supplied personal portrait.
+- `portrait-piano.jpg`: supplied photograph at the piano.
 - `rokid-award.webp`: supplied Agentcraft trophy and certificate photograph.
 - `hackathon-building.webp`, `hackathon-team.webp`: supplied photographs from AI Hackathon Tour at Shanghai Jiao Tong University.
 - `plasma-simulation.webp`: `docs/images/fig5_best_case_E2_showcase.png` from the author's public [agentic-md-for-dummies repository](https://github.com/thematteroftime/agentic-md-for-dummies), illustrating a PRX 2015 reproduction. It is not presented as an experimental hardware result.
