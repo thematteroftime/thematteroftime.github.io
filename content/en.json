@@ -136,7 +136,7 @@
       "year": "2026.07 —",
       "org": "Shanghai Jiao Tong University · MINT Lab",
       "role": "Robotics Research Intern · Onsite / Full-time",
-      "body": "Adapted starVLA to benchmark tasks, calibrated an extended seven-axis SO101 arm, and collected data and ran training and inference on Piper. Deployed a Jetson Orin and connected Meta Quest 3 teleoperation to OPENARM across separate local networks. Contributed all figures, later-stage writing and detailed review to Evo-RL, submitted to ICRA 2027. Also participated in Learn the Task, Not the Schedule, on reducing spurious coupling in bimanual data, submitted to CoRL 2027."
+      "body": "Adapted starVLA to benchmark tasks, calibrated an extended seven-axis SO101 arm, and collected data and ran training and inference on Piper. Deployed a Jetson Orin and connected Meta Quest 3 teleoperation to OPENARM across separate local networks. Contributed all figures, later-stage writing and detailed review to Evo-RL, submitted to ICRA 2027. Also participated in Learn the Task, Not the Schedule, on reducing spurious coupling in bimanual data, submitted to ICLR 2027."
     },
     {
       "id": "rokid",

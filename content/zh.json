@@ -136,7 +136,7 @@
       "year": "2026.07 — 至今",
       "org": "上海交通大学 · MINT 实验室",
       "role": "机器人科研实习生 · 线下全职",
-      "body": "研究 starVLA 架构并适配不同基准任务；开展扩展七轴 SO101 机械臂标定，在 Piper 上进行数据采集、训练与推理。部署 Jetson Orin，打通 Meta Quest 3 跨局域网遥操作 OPENARM 的数据链路。参与 Evo-RL，负责全部图表、后期撰写与细节审查，论文已投稿 ICRA 2027；同时参与减少双臂数据虚假耦合的 Learn the Task, Not the Schedule 项目，已投稿 CoRL 2027。"
+      "body": "研究 starVLA 架构并适配不同基准任务；开展扩展七轴 SO101 机械臂标定，在 Piper 上进行数据采集、训练与推理。部署 Jetson Orin，打通 Meta Quest 3 跨局域网遥操作 OPENARM 的数据链路。参与 Evo-RL，负责全部图表、后期撰写与细节审查，论文已投稿 ICRA 2027；同时参与减少双臂数据虚假耦合的 Learn the Task, Not the Schedule 项目，已投稿 ICLR 2027。"
     },
     {
       "id": "rokid",
