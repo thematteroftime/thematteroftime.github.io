@@ -59,7 +59,7 @@
       "n": "03",
       "title": "视觉—语言—动作模型",
       "tag": "机器人数据 · 真机验证",
-      "body": "开展模型适配、数据采集与清洗、微调，并在机器人硬件上进行测试与验证。"
+      "body": "研究 gaze 信息与视觉压缩对 VLA 行为的影响，开展数据集整理、模型微调与真机评估，并探索高层决策与底层执行的协调。"
     },
     {
       "n": "04",
@@ -121,6 +121,21 @@
       ],
       "image": "assets/rokid-award.webp",
       "caption": "Agentcraft 团队获得的 Rokid Spatial Joy 2025 技术创新奖奖杯与证书，颁奖时间为 2026 年 1 月。"
+    },
+    {
+      "id": "lazy-paper",
+      "year": "开源项目",
+      "role": "科研软件 · 知识工具",
+      "name": "lazy-paper：知识花园",
+      "body": "将论文阅读、问题梳理、文献检索与实验记录连接起来的开源科研工具。通过分阶段流程生成带图表与来源引用的中英文分析，并用“知识花园”呈现论文与实验之间的关系。公开仓库提供代码、使用说明与示例输出，便于查看实现方式。",
+      "tags": [
+        "科研工具",
+        "知识库",
+        "开源"
+      ],
+      "image": "assets/lazy-paper-garden.webp",
+      "caption": "知识花园界面：连接论文、问题与实验。截图来自项目公开仓库。",
+      "link": "github.com/thematteroftime/lazy-paper"
     }
   ],
   "experience": [
@@ -143,7 +158,14 @@
       "year": "2025.09 — 2026.07",
       "org": "Rokid（杭州灵伴科技有限公司）",
       "role": "校园大使",
-      "body": "支持 AR 技术分享、校园联络与 XR 相关合作；在 S 创、Google 开发者大会、AdventureX 等活动中，与开发者及用户交流使用需求。"
+      "body": "支持 AR 技术分享、校园联络与 XR 相关合作；在 S 创、Google 开发者大会、AdventureX 等活动中，与开发者及用户交流使用需求。",
+      "image": "assets/rokid-ambassador.webp",
+      "caption": "Rokid 校园大使聘书 · 2025 年 9 月至 2026 年 7 月。",
+      "tags": [
+        "AR",
+        "XR",
+        "校园交流"
+      ]
     },
     {
       "id": "fluxverse",
@@ -186,8 +208,8 @@
     }
   ],
   "openTo": [
+    "访问学生与科研实习",
     "科研合作",
-    "博士深造机会",
     "机器人创业交流"
   ],
   "honors": [

@@ -59,7 +59,7 @@
       "n": "03",
       "title": "Vision–Language–Action",
       "tag": "Robot Data · Real-Robot Evaluation",
-      "body": "Model adaptation, dataset collection and cleaning, fine-tuning, and evaluation on robot hardware."
+      "body": "Investigating how gaze information and visual compression affect VLA behavior, alongside dataset preparation, model fine-tuning and real-robot evaluation. Exploring coordination between high-level decisions and low-level execution."
     },
     {
       "n": "04",
@@ -121,6 +121,21 @@
       ],
       "image": "assets/rokid-award.webp",
       "caption": "Agentcraft’s trophy and certificate for the Rokid Spatial Joy 2025 Technical Innovation Award, received in January 2026."
+    },
+    {
+      "id": "lazy-paper",
+      "year": "Open source",
+      "role": "Research Software · Knowledge Tools",
+      "name": "lazy-paper · Research Knowledge Garden",
+      "body": "An open-source research tool that connects paper reading, question development, a searchable literature library and experiment notes. Its pipeline produces bilingual analyses with figures and source references; the knowledge-garden view maps relationships between papers and experiments. The public repository includes the code, usage guide and example outputs.",
+      "tags": [
+        "Research Tools",
+        "Knowledge Base",
+        "Open Source"
+      ],
+      "image": "assets/lazy-paper-garden.webp",
+      "caption": "Knowledge-garden interface: connecting papers, questions and experiments. Screenshot from the public project repository.",
+      "link": "github.com/thematteroftime/lazy-paper"
     }
   ],
   "experience": [
@@ -143,7 +158,14 @@
       "year": "2025.09 — 2026.07",
       "org": "Rokid",
       "role": "Campus Ambassador",
-      "body": "Supported AR technical sharing, campus liaison and XR collaboration. Discussed developer and user needs at S-Startup, Google DevFest and AdventureX."
+      "body": "Supported AR technical sharing, campus liaison and XR collaboration. Discussed developer and user needs at S-Startup, Google DevFest and AdventureX.",
+      "image": "assets/rokid-ambassador.webp",
+      "caption": "Rokid campus ambassador appointment · September 2025–July 2026.",
+      "tags": [
+        "AR",
+        "XR",
+        "Community"
+      ]
     },
     {
       "id": "fluxverse",
@@ -186,8 +208,8 @@
     }
   ],
   "openTo": [
+    "Visiting student / research internships",
     "Research collaborations",
-    "PhD opportunities",
     "Robotics ventures"
   ],
   "honors": [

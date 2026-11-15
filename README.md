@@ -26,3 +26,9 @@ The language switch retains the current project route and reading position. Both
 - `plasma-simulation.webp`: `docs/images/fig5_best_case_E2_showcase.png` from the author's public [agentic-md-for-dummies repository](https://github.com/thematteroftime/agentic-md-for-dummies), illustrating a PRX 2015 reproduction. It is not presented as an experimental hardware result.
 
 Images are resized WebP copies with metadata removed. Original application documents, identity documents and account screenshots are not part of this repository.
+
+## Additional public material (2026-11-16)
+
+- `lazy-paper-garden.webp`: resized from `docs/assets/v119-garden-live.png` in the author’s public [lazy-paper repository](https://github.com/thematteroftime/lazy-paper). Interface example only; library counts are not current research metrics.
+- `rokid-ambassador.webp`: supplied Rokid campus ambassador appointment photograph, September 2025–July 2026, from `c5f8e97ed8eedd6cfdb8b55895a43270.jpg`.
+- The lazy-paper project description follows its public README; it does not claim a publication or measured research outcome.
