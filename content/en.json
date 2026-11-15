@@ -74,7 +74,7 @@
       "year": "2026.08 —",
       "role": "Research · Reproduction",
       "name": "Shape-Aware Motion Planning",
-      "body": "Reproducing SVSDF collision-free motion planning from FAST Lab open-source code. Implemented SE(2) planning on a quadruped; SE(3) UAV trajectory planning is in progress. Exploring collision-aware planning for coupled base–payload and articulated systems.",
+      "body": "Reproducing SVSDF collision-free motion planning from FAST Lab open-source code. Completed SE(2) planning for a simulated quadrupedal robot. Currently extending the method to SE(3) quadruped trajectory planning and exploring how planning guidance in multi-task reinforcement-learning environments can promote policy generalization.",
       "tags": [
         "SVSDF",
         "Motion Planning",
