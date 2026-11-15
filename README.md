@@ -16,7 +16,7 @@ python3 scripts/build.py
 
 Commit the generated HTML with the source changes. GitHub Pages publishes the root of `main`.
 
-The language switch retains the current project route and reading position. Both pages share the same image assets and saved theme. The Chinese resume is available at `assets/Resume-Chinese.pdf`.
+The language switch retains the current project route and reading position. Both pages share the same image assets and saved theme. Resume downloads match each page’s language: `assets/Resume-Chinese.pdf` and `assets/Resume-English.pdf`.
 
 ## Image provenance
 

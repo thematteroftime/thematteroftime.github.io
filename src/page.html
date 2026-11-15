@@ -105,7 +105,7 @@
           <div style="display:flex; flex-wrap:wrap; gap:22px; margin-top:34px; font-family:ui-monospace,'SF Mono',Menlo,monospace; font-size:13px;">
             <a href="mailto:2107991398@qq.com" data-mag="1" style="display:inline-block; border-bottom:1px solid var(--line); padding-bottom:3px;" style-hover="color:var(--accent); border-color:var(--accent);">@@email@@</a>
             <a href="https://github.com/thematteroftime" target="_blank" rel="noopener" data-mag="1" style="display:inline-block; border-bottom:1px solid var(--line); padding-bottom:3px;" style-hover="color:var(--accent); border-color:var(--accent);">GitHub ↗</a>
-            <a href="assets/Resume-Chinese.pdf" target="_blank" rel="noopener" style="border-bottom:1px solid var(--line);padding-bottom:3px;">@@cv@@</a>
+            <a href="@@resumePath@@" target="_blank" rel="noopener" style="border-bottom:1px solid var(--line);padding-bottom:3px;">@@cv@@</a>
           </div>
         </div>
         <div style="position:relative; width:clamp(240px,34vw,380px); height:clamp(240px,34vw,380px); flex:0 0 auto;">
@@ -287,7 +287,7 @@
     </main>
     </sc-if>
 
-    <div class="resume-link"><a href="assets/Resume-Chinese.pdf" target="_blank" rel="noopener">@@download@@</a></div>
+    <div class="resume-link"><a href="@@resumePath@@" target="_blank" rel="noopener">@@download@@</a></div>
     <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
       <section class="honors-section">
         <h2 class="section-label">@@honorsLabel@@</h2>

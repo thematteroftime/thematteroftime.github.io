@@ -17,9 +17,9 @@
     "heroName": "Jiedong<br>Zhang",
     "heroLead": "From the shape of a robot to the path it can follow.",
     "heroAbout": "I work on shape-aware motion planning and robot learning, with a background in applied physics and a cross-university minor in mathematics. I enjoy building algorithms, connecting hardware and testing ideas on real robots.",
-    "heroCurrent": "Research intern at SJTU IITI · EvoMind and HKUST (Guangzhou) PAIRS Lab, working on robot learning and motion planning.",
+    "heroCurrent": "Research intern at Shanghai Jiao Tong University’s MINT Lab and HKUST (Guangzhou)’s PAIRS Lab, working on robot learning, hardware integration and active vision.",
     "email": "Email ↗",
-    "cv": "Chinese CV ↗",
+    "cv": "English CV ↗",
     "recent": "Recent",
     "researchDirections": "Research directions",
     "selectedWork": "Selected work",
@@ -39,7 +39,8 @@
     "portraitAlt": "Portrait of Jiedong Zhang",
     "fieldnotes": "Outside the lab",
     "fieldnotesIntro": "Building, sharing and learning with other makers.",
-    "download": "Download Chinese CV ↗"
+    "download": "Download English CV ↗",
+    "resumePath": "assets/Resume-English.pdf"
   },
   "research": [
     {
@@ -85,7 +86,7 @@
       "year": "2026.05 —",
       "role": "Team Lead · Reinforcement Learning",
       "name": "ATEC 2026 · Team ATEpi",
-      "body": "Led reinforcement-learning experiments and algorithm pipeline design. Reproduced HIMLoco, Extreme Parkour and whole-body control, using teacher–student distillation and history-based estimation. Scored 36/36 in obstacle traversal; placed 16th overall on the online L1 leaderboard, with a Track 2 score of 52.",
+      "body": "Led reinforcement-learning experiments and algorithm pipeline design. Reproduced HIMLoco, Extreme Parkour and whole-body control. Two-stage teacher–student distillation achieved 84% task success, while history-based parameter estimation yielded a 0% base-fall rate in the evaluated runs. Scored 36/36 in obstacle traversal; placed 16th overall on the online L1 leaderboard, with a Track 2 score of 52.",
       "tags": [
         "Reinforcement Learning",
         "Whole-Body Control",
@@ -128,14 +129,14 @@
       "year": "2026.08 —",
       "org": "HKUST (Guangzhou) · PAIRS Lab",
       "role": "Research Intern · Remote / Part-time",
-      "body": "Collected, cleaned and organized active visual tracking data. Trained and tested PI0 / PI0.5 on Piper; used Qwen-4B for fine-tuning and data generation."
+      "body": "Work on active visual tracking, including visual information compression and combining multiple camera views into a single stream to improve VLA robustness to environmental disturbances. Collected, cleaned and organized the dataset; used Qwen-4B for fine-tuning and data generation, and trained and tested PI0 / PI0.5 on Piper. Preparing a co-first-author submission to RSS 2027, contributing to manuscript writing, real-robot validation and figures."
     },
     {
       "id": "evomind",
       "year": "2026.07 —",
-      "org": "SJTU IITI · EvoMind",
+      "org": "Shanghai Jiao Tong University · MINT Lab",
       "role": "Robotics Research Intern · Onsite / Full-time",
-      "body": "Adapted starVLA to benchmark tasks, calibrated an extended seven-axis SO101 arm, deployed Jetson Orin, and connected Quest 3 teleoperation to OPENARM. Fifth author of Evo-RL, submitted to ICRA 2027; contributed figures, manuscript preparation and detailed review."
+      "body": "Adapted starVLA to benchmark tasks, calibrated an extended seven-axis SO101 arm, and collected data and ran training and inference on Piper. Deployed a Jetson Orin and connected Meta Quest 3 teleoperation to OPENARM across separate local networks. Contributed all figures, later-stage writing and detailed review to Evo-RL, submitted to ICRA 2027. Also participated in Learn the Task, Not the Schedule, on reducing spurious coupling in bimanual data, submitted to CoRL 2027."
     },
     {
       "id": "rokid",
@@ -157,7 +158,7 @@
       "year": "2022.09 — 2026.06",
       "school": "Donghua University",
       "deg": "B.Sc. · Applied Physics (New Energy & Microelectronics)",
-      "courses": "Quantum Mechanics · Electrodynamics · Optics · Mathematical Physics · Optimization"
+      "courses": "Quantum Mechanics · Electrodynamics · Electromagnetism · Thermodynamics · Optics · Mathematical Physics · Optimization"
     },
     {
       "year": "2024.02 — 2026.06",
@@ -173,7 +174,7 @@
     },
     {
       "date": "2026·07",
-      "text": "ATEpi placed 16th overall on the ATEC online L1 leaderboard; started an internship at SJTU IITI · EvoMind."
+      "text": "ATEpi placed 16th overall on the ATEC online L1 leaderboard; started a research internship at SJTU’s MINT Lab."
     },
     {
       "date": "2026·06",
@@ -190,11 +191,11 @@
     "Robotics ventures"
   ],
   "honors": [
+    "Shenzhen InnoX Academy · Selected for the Seed Program — August 2026",
+    "National Undergraduate Innovation Training Project · Project lead, completed June 2026",
     "Rokid Spatial Joy 2025 · Technical Innovation Award — January 2026",
     "China Undergraduate Mathematical Contest in Modeling · Shanghai Second Prize — December 2024",
-    "9th Shanghai Undergraduate Physics Tournament · Third Prize — July 2024",
-    "National Undergraduate Innovation Training Project · Project lead, completed June 2026",
-    "Shenzhen InnoX Academy · Selected for the Seed Program"
+    "9th Shanghai Undergraduate Physics Tournament · Third Prize — July 2024"
   ],
   "gallery": [
     {
