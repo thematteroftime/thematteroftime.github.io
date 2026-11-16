@@ -40,7 +40,9 @@
     "fieldnotes": "Outside the lab",
     "fieldnotesIntro": "Exchanging ideas and building prototypes with people from different backgrounds at hackathons and maker events.",
     "download": "Download English CV ↗",
-    "resumePath": "assets/Resume-English.pdf"
+    "resumePath": "assets/Resume-English.pdf",
+    "openVideo": "Open video ↗",
+    "moreVideos": "More demos"
   },
   "research": [
     {
@@ -80,8 +82,16 @@
         "VLA",
         "Real-Robot Evaluation"
       ],
-      "image": "assets/active-vision-dual-view.webp",
-      "caption": "Coin-task data-collection replay: paired external and close-up camera views."
+      "caption": "Dual-view coin-task collection replay · 21 s. Synchronized external and close-up camera views.",
+      "poster": "assets/active-vision-dual-view.webp",
+      "video": "assets/video/active-vision-dual-view.mp4",
+      "moreVideos": [
+        {
+          "video": "assets/video/active-vision-offline-focus.mp4",
+          "poster": "assets/active-vision-offline-focus.webp",
+          "caption": "Visual-focus processing replay · 19 s. Offline processing example."
+        }
+      ]
     },
     {
       "id": "svsdf",
@@ -94,8 +104,21 @@
         "Motion Planning",
         "SE(2) / SE(3)"
       ],
-      "image": "assets/svsdf-test-scenes.webp",
-      "caption": "SE(3) planning test environments: geometry previews of four scene layouts."
+      "caption": "Swept-volume visualization around pillars · 11.5 s. Blue shows the swept volume of the body envelope in simulation.",
+      "poster": "assets/svsdf-swept-pillars.webp",
+      "video": "assets/video/svsdf-swept-pillars.mp4",
+      "moreVideos": [
+        {
+          "video": "assets/video/svsdf-swept-beams.mp4",
+          "poster": "assets/svsdf-swept-beams.webp",
+          "caption": "Overhead-beam swept-volume visualization · 11.5 s. Simulation geometry with a body-only planning envelope."
+        },
+        {
+          "video": "assets/video/svsdf-swept-ramps.mp4",
+          "poster": "assets/svsdf-swept-ramps.webp",
+          "caption": "Ramp swept-volume visualization · 11.5 s. Simulation geometry with a body-only planning envelope."
+        }
+      ]
     },
     {
       "id": "openarm",

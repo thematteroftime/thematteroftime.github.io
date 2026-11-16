@@ -27,6 +27,12 @@
   .project-figure,.detail-figure{margin:24px 0;}
   .project-figure img,.detail-figure img{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:3px;}
   .detail-figure img{max-height:720px;object-fit:contain;}
+  .project-video{display:block;width:100%;height:auto;max-height:640px;object-fit:contain;background:#161616;border:1px solid var(--line);border-radius:3px;}
+  .project-figure:has(.project-video){max-width:720px;}
+  .video-link{display:inline-block;font-size:12px;color:var(--accent);margin-top:10px;border-bottom:1px solid var(--line);}
+  .more-videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:24px;}
+  .more-videos figure{margin:0;max-width:640px;}
+  .more-videos .project-video{max-height:420px;}
   figcaption{font-size:12px;line-height:1.7;color:var(--muted);margin-top:10px;}
   .field-notes,.honors-section{max-width:1200px;margin:0 auto;padding:clamp(40px,6vw,72px) clamp(20px,5vw,64px);border-top:1px solid var(--line);}
   .section-label{font:12px ui-monospace,monospace;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;}
@@ -163,7 +169,14 @@
             <div style="min-width:0;">
               <h3 data-mag="1" style="margin:0 0 12px; font-size:clamp(23px,3vw,30px); font-weight:600; letter-spacing:-.015em; display:inline-block;" style-hover="color:var(--accent);"><a href="#/work/{{ p.id }}">{{ p.name }}</a></h3>
               <p style="margin:0 0 16px; font-size:16px; line-height:1.64; color:var(--muted); max-width:720px; text-wrap:pretty;">{{ p.body }}</p>
-<sc-if value="{{ p.image }}" hint-placeholder-val="{{ false }}">
+<sc-if value="{{ p.video }}" hint-placeholder-val="{{ false }}">
+                <figure class="project-figure">
+                  <video class="project-video" data-src="{{ p.video }}" poster="{{ p.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ p.caption }}"></video>
+                  <figcaption>{{ p.caption }}</figcaption>
+                  <a class="video-link" href="{{ p.video }}" target="_blank" rel="noopener">@@openVideo@@</a>
+                </figure>
+              </sc-if>
+              <sc-if value="{{ p.image }}" hint-placeholder-val="{{ false }}">
                 <figure class="project-figure">
                   <a href="{{ p.image }}" target="_blank" rel="noopener" aria-label="{{ p.caption }}"><img data-src="{{ p.image }}" alt="{{ p.caption }}" loading="lazy" decoding="async" width="1200" height="600"></a>
                   <figcaption>{{ p.caption }}</figcaption>
@@ -269,6 +282,25 @@
         </div>
       </header>
 
+      <sc-if value="{{ item.video }}" hint-placeholder-val="{{ false }}">
+        <figure class="detail-figure">
+          <video class="project-video" data-src="{{ item.video }}" poster="{{ item.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ item.caption }}"></video>
+          <figcaption>{{ item.caption }}</figcaption>
+          <a class="video-link" href="{{ item.video }}" target="_blank" rel="noopener">@@openVideo@@</a>
+        </figure>
+        <section aria-label="@@moreVideos@@">
+          <h2 class="section-label">@@moreVideos@@</h2>
+          <div class="more-videos">
+            <sc-for list="{{ item.moreVideos }}" as="clip" hint-placeholder-count="1">
+              <figure>
+                <video class="project-video" data-src="{{ clip.video }}" poster="{{ clip.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ clip.caption }}"></video>
+                <figcaption>{{ clip.caption }}</figcaption>
+                <a class="video-link" href="{{ clip.video }}" target="_blank" rel="noopener">@@openVideo@@</a>
+              </figure>
+            </sc-for>
+          </div>
+        </section>
+      </sc-if>
       <sc-if value="{{ item.image }}" hint-placeholder-val="{{ false }}">
         <figure class="detail-figure">
           <a href="{{ item.image }}" target="_blank" rel="noopener" aria-label="{{ item.caption }}"><img data-src="{{ item.image }}" alt="{{ item.caption }}" decoding="async" width="1600" height="800"></a>
@@ -414,7 +446,7 @@ class Component extends DCLogic {
   }
   collect(){
     const el=this.rootRef.current; if(!el) return;
-    el.querySelectorAll('img[data-src]').forEach(img=>{
+    el.querySelectorAll('img[data-src], video[data-src]').forEach(img=>{
       const source=img.getAttribute('data-src');
       if(source && !source.includes('{{') && img.getAttribute('src')!==source) img.setAttribute('src',source);
     });

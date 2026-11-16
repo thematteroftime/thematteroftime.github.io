@@ -40,7 +40,9 @@
     "fieldnotes": "走出实验室",
     "fieldnotesIntro": "在黑客松和创客活动中，与不同背景的伙伴交流想法、动手做原型。",
     "download": "下载中文简历 ↗",
-    "resumePath": "assets/Resume-Chinese.pdf"
+    "resumePath": "assets/Resume-Chinese.pdf",
+    "openVideo": "打开视频 ↗",
+    "moreVideos": "更多演示"
   },
   "research": [
     {
@@ -80,8 +82,16 @@
         "VLA",
         "真机评估"
       ],
-      "image": "assets/active-vision-dual-view.webp",
-      "caption": "投币任务采集回放：外部视角与近景视角的同步画面。"
+      "caption": "投币任务双视角采集回放 · 21 秒。外部视角与近景视角的同步画面。",
+      "poster": "assets/active-vision-dual-view.webp",
+      "video": "assets/video/active-vision-dual-view.mp4",
+      "moreVideos": [
+        {
+          "video": "assets/video/active-vision-offline-focus.mp4",
+          "poster": "assets/active-vision-offline-focus.webp",
+          "caption": "视觉聚焦处理回放 · 19 秒。离线处理示例。"
+        }
+      ]
     },
     {
       "id": "svsdf",
@@ -94,8 +104,21 @@
         "运动规划",
         "SE(2) / SE(3)"
       ],
-      "image": "assets/svsdf-test-scenes.webp",
-      "caption": "SE(3) 规划测试环境：四组不同空间布局的几何场景预览。"
+      "caption": "立柱场景扫掠体展示 · 11.5 秒。蓝色表示机体包络的扫掠体积；视频为仿真几何展示。",
+      "poster": "assets/svsdf-swept-pillars.webp",
+      "video": "assets/video/svsdf-swept-pillars.mp4",
+      "moreVideos": [
+        {
+          "video": "assets/video/svsdf-swept-beams.mp4",
+          "poster": "assets/svsdf-swept-beams.webp",
+          "caption": "横梁场景扫掠体展示 · 11.5 秒。仿真几何展示，规划包络仅包含机体。"
+        },
+        {
+          "video": "assets/video/svsdf-swept-ramps.mp4",
+          "poster": "assets/svsdf-swept-ramps.webp",
+          "caption": "坡道场景扫掠体展示 · 11.5 秒。仿真几何展示，规划包络仅包含机体。"
+        }
+      ]
     },
     {
       "id": "openarm",

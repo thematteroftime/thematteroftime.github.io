@@ -35,7 +35,7 @@ Images are resized WebP copies with metadata removed. Original application docum
 
 ## Research context refresh (2026-11-16)
 
-Active-vision, SVSDF and OPENARM summaries were cross-checked against current project discussion records. Descriptions cover research questions, personal contributions and engineering work in progress. Internal infrastructure details, unpublished manuscript figures, model weights, experimental videos and unverified performance claims are excluded. CV files are unchanged by this content-only refresh.
+Active-vision, SVSDF and OPENARM summaries were cross-checked against current project discussion records. Descriptions cover research questions, personal contributions and engineering work in progress. Internal infrastructure details, unpublished manuscript figures, model weights and unverified performance claims are excluded. Only the selected demonstration videos documented below are included. CV files are unchanged by this content-only refresh.
 
 ## Project image selection (2026-11-16)
 
@@ -50,3 +50,14 @@ All three pictures are shared by the Chinese and English pages, retain their asp
 Replace `assets/Resume-English.pdf` and `assets/Resume-Chinese.pdf` with the latest approved exports, then run `python3 scripts/build.py` and publish both generated HTML files. The build derives a download URL version from each PDF’s content hash and includes both hashes in the bilingual page release. Updated PDF content therefore refreshes download links automatically. The version labels are derived from the actual files, not manually entered dates.
 
 The gallery keeps the two hackathon photographs. The piano photograph is used only for the existing avatar, per the user’s preference. The certificate photograph is described as a next-round certificate rather than a competition award.
+
+
+## Selected project videos
+
+Both language versions share the same MP4 files. The project list shows one main video per project; each project detail page includes additional clips. Players use native controls, inline playback and metadata preloading, with no autoplay. Posters preserve each clip’s aspect ratio.
+
+- `assets/video/active-vision-dual-view.mp4`: existing edited coin-task dual-camera collection replay (21.267 s, 1280×360), from the SeeSharp roadshow output. Shows recorded observations, not a policy-success evaluation.
+- `assets/video/active-vision-offline-focus.mp4`: existing edited offline visual-focus replay (18.867 s, 448×252), from the same roadshow output. Not an online or closed-loop demonstration.
+- `assets/video/svsdf-swept-{pillars,beams,ramps}.mp4`: three existing swept-volume renders (11.5 s each, 1920×1080), from the planning project’s demo directory. The blue swept geometry represents the body-only planning envelope; these renders do not validate leg contacts, locomotion control or real-robot execution.
+
+Videos are H.264 MP4 copies of the inspected source files, without re-encoding or changes to the original project files. Additional WebP posters are sampled from those videos or their existing stills. The static scene overview remains available as an asset but is no longer the SVSDF project’s main presentation.
