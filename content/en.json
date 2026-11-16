@@ -79,7 +79,9 @@
         "Gaze",
         "VLA",
         "Real-Robot Evaluation"
-      ]
+      ],
+      "image": "assets/active-vision-dual-view.webp",
+      "caption": "Coin-task data-collection replay: paired external and close-up camera views."
     },
     {
       "id": "svsdf",
@@ -91,7 +93,9 @@
         "SVSDF",
         "Motion Planning",
         "SE(2) / SE(3)"
-      ]
+      ],
+      "image": "assets/svsdf-test-scenes.webp",
+      "caption": "SE(3) planning test environments: geometry previews of four scene layouts."
     },
     {
       "id": "openarm",
@@ -103,7 +107,10 @@
         "OPENARM",
         "Meta Quest 3",
         "Jetson Orin"
-      ]
+      ],
+      "image": "assets/openarm-platform-reference.webp",
+      "caption": "OpenArm platform reference image · Enactic / OpenArm official repository.",
+      "link": "github.com/enactic/openarm"
     },
     {
       "id": "atec",

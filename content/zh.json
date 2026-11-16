@@ -79,7 +79,9 @@
         "Gaze",
         "VLA",
         "真机评估"
-      ]
+      ],
+      "image": "assets/active-vision-dual-view.webp",
+      "caption": "投币任务采集回放：外部视角与近景视角的同步画面。"
     },
     {
       "id": "svsdf",
@@ -91,7 +93,9 @@
         "SVSDF",
         "运动规划",
         "SE(2) / SE(3)"
-      ]
+      ],
+      "image": "assets/svsdf-test-scenes.webp",
+      "caption": "SE(3) 规划测试环境：四组不同空间布局的几何场景预览。"
     },
     {
       "id": "openarm",
@@ -103,7 +107,10 @@
         "OPENARM",
         "Meta Quest 3",
         "Jetson Orin"
-      ]
+      ],
+      "image": "assets/openarm-platform-reference.webp",
+      "caption": "OpenArm 平台参考图 · 来源：Enactic / OpenArm 官方仓库。",
+      "link": "github.com/enactic/openarm"
     },
     {
       "id": "atec",

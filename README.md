@@ -36,3 +36,11 @@ Images are resized WebP copies with metadata removed. Original application docum
 ## Research context refresh (2026-11-16)
 
 Active-vision, SVSDF and OPENARM summaries were cross-checked against current project discussion records. Descriptions cover research questions, personal contributions and engineering work in progress. Internal infrastructure details, unpublished manuscript figures, model weights, experimental videos and unverified performance claims are excluded. CV files are unchanged by this content-only refresh.
+
+## Project image selection (2026-11-16)
+
+- `active-vision-dual-view.webp`: resized `demo2_2.jpg` from the project roadshow review. Its adjacent `metadata.json` identifies this frame as a sample of `投币任务双视角回放.mp4` (21.267 s, 1280×360). This is data-collection footage, not a policy-success demonstration.
+- `svsdf-test-scenes.webp`: resized `models/se3_racing_suite/renders/suite_overview.jpg` from the user’s planning project. Scene geometry preview only; not an algorithm trajectory or dynamics result.
+- `openarm-platform-reference.webp`: resized from [Enactic/OpenArm’s official README image](https://github.com/enactic/openarm/blob/main/website/static/img/hardware/openarm_and_cell.png). Official platform reference, not a photograph of this author’s deployment. Original source: https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png .
+
+All three pictures are shared by the Chinese and English pages, retain their aspect ratios, and have metadata removed. Original project assets are unchanged.
