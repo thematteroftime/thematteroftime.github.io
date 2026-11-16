@@ -15,19 +15,19 @@
     "theme": "Toggle light / dark theme",
     "heroTag": "Motion Planning · Robot Learning · Computational Physics",
     "heroName": "Jiedong<br>Zhang",
-    "heroLead": "From the shape of a robot to the path it can follow.",
-    "heroAbout": "I work on shape-aware motion planning and robot learning, with a background in applied physics and a cross-university minor in mathematics. I enjoy building algorithms, connecting hardware and testing ideas on real robots.",
-    "heroCurrent": "Research intern at Shanghai Jiao Tong University’s MINT Lab and HKUST (Guangzhou)’s PAIRS Lab, working on robot learning, hardware integration and active vision.",
+    "heroLead": "I explore how robots perceive, plan and act.",
+    "heroAbout": "I graduated in Applied Physics from Donghua University and completed a minor in Mathematics and Applied Mathematics at Shanghai Jiao Tong University. I test research ideas through algorithm implementation, hardware integration and robot experiments.",
+    "heroCurrent": "Currently a research intern at MINT Lab, Shanghai Jiao Tong University, and PAIRS Lab, HKUST (Guangzhou), working on robot learning, systems integration and active vision.",
     "email": "Email ↗",
     "cv": "English CV ↗",
     "recent": "Recent",
-    "researchDirections": "Research directions",
+    "researchDirections": "Research interests",
     "selectedWork": "Selected work",
-    "openDetail": "Explore projects ↗",
+    "openDetail": "View project details ↗",
     "experience": "Experience",
     "education": "Education",
     "beyond": "Beyond research",
-    "piano": "Classical piano — a continuing interest alongside research and engineering.",
+    "piano": "Outside research and engineering, I enjoy playing classical piano.",
     "getInTouch": "Get in touch",
     "openTo": "Open to",
     "location": "Shanghai, China",
@@ -38,7 +38,7 @@
     "footer": "© 2026 · geometry, topology & fractals",
     "portraitAlt": "Portrait of Jiedong Zhang",
     "fieldnotes": "Outside the lab",
-    "fieldnotesIntro": "Building, sharing and learning with other makers.",
+    "fieldnotesIntro": "Exchanging ideas and building prototypes with people from different backgrounds at hackathons and maker events.",
     "download": "Download English CV ↗",
     "resumePath": "assets/Resume-English.pdf"
   },
@@ -47,25 +47,25 @@
       "n": "01",
       "title": "Shape-Aware Motion Planning",
       "tag": "Geometry · SVSDF",
-      "body": "Collision-aware planning that accounts for the robot’s full shape, with an interest in articulated systems and coupled base–payload motion."
+      "body": "Planning around the geometry of robots and their payloads, with an interest in obstacle avoidance in confined spaces and coordinated motion of bases, payloads and articulated systems."
     },
     {
       "n": "02",
       "title": "Robot Learning",
       "tag": "Reinforcement Learning · Control",
-      "body": "Reinforcement-learning experiments, teacher–student distillation and history-based estimation for locomotion and whole-body control."
+      "body": "Reinforcement learning for locomotion and whole-body control, including teacher–student distillation and parameter estimation from observation histories."
     },
     {
       "n": "03",
       "title": "Vision–Language–Action",
       "tag": "Robot Data · Real-Robot Evaluation",
-      "body": "Investigating how gaze information and visual compression affect VLA behavior, alongside dataset preparation, model fine-tuning and real-robot evaluation. Exploring coordination between high-level decisions and low-level execution."
+      "body": "Studying how gaze information and visual compression affect VLA action decisions through dataset preparation, model fine-tuning and real-robot evaluation, while exploring coordination between high-level decisions and low-level execution."
     },
     {
       "n": "04",
       "title": "Computational Physics",
       "tag": "Taichi · PyTorch · AI4S",
-      "body": "Physics simulation and reproducible workflows that connect published methods, executable experiments and analysis figures."
+      "body": "Developing physics simulation tools, reproducing published methods and experiments, and building repeatable workflows for experiments and analysis."
     }
   ],
   "projects": [
@@ -74,7 +74,7 @@
       "year": "2026.08 —",
       "role": "Research · In Progress",
       "name": "Active Vision & Hierarchical VLA",
-      "body": "Studying how gaze information and visual compression affect VLA behavior, and exploring coordination between high-level visual decisions and low-level action policies. Led dataset collection and cleaning, Qwen-based fine-tuning and data generation, and Piper training and evaluation. Current work focuses on matching training inputs to deployment inputs and recording visual observations, policy outputs and robot feedback for reproducible comparisons.",
+      "body": "Studying how gaze information and visual compression affect VLA action decisions, with a focus on coordination between high-level visual decisions and low-level action policies. Led data collection and cleaning, Qwen-based model fine-tuning and data generation, and training and evaluation on Piper. Current work examines the consistency of visual inputs during training and deployment, recording observations, policy outputs and robot feedback for comparative experiments and analysis.",
       "tags": [
         "Gaze",
         "VLA",
@@ -88,7 +88,7 @@
       "year": "2026.08 —",
       "role": "Research · Reproduction",
       "name": "Shape-Aware Motion Planning",
-      "body": "Reproducing SVSDF collision-free motion planning from FAST Lab open-source code. Completed SE(2) planning for a simulated quadrupedal robot; extending the method to SE(3) quadruped trajectories. Current research examines how geometric clearance, orientation and local smoothness should guide trajectory refinement, alongside planning-guided multi-task reinforcement learning for policy generalization.",
+      "body": "Reproducing SVSDF collision-free motion planning using open-source code from FAST Lab at Zhejiang University. Completed SE(2) planning for a simulated quadruped and am now extending it to SE(3) trajectories. Current work examines how geometric clearance, orientation and local smoothness can jointly guide trajectory optimization, and explores the role of planning information in policy generalization within multi-task reinforcement-learning environments.",
       "tags": [
         "SVSDF",
         "Motion Planning",
@@ -102,7 +102,7 @@
       "year": "2026",
       "role": "Systems Integration · Ongoing",
       "name": "OPENARM · VR Teleoperation",
-      "body": "Contributed to cross-network teleoperation linking Meta Quest 3 and OPENARM, alongside Jetson Orin deployment and robot-side integration. The engineering work covers connection renewal, session handover, transport diagnostics and command/feedback logging. Ongoing validation examines both communication continuity and physical execution, with a focus on observable, repeatable robot experiments.",
+      "body": "Contributed to cross-network teleoperation between Meta Quest 3 and OPENARM, Jetson Orin deployment and robot-side integration. My work includes connection maintenance, session handover, transport troubleshooting, and command and feedback logging. Ongoing work checks the consistency between communication and robot execution, and refines the teleoperation and data-recording workflows used in experiments.",
       "tags": [
         "OPENARM",
         "Meta Quest 3",
@@ -129,7 +129,7 @@
       "year": "2025.01 — 2026.06",
       "role": "Project Lead · Simulation Engine",
       "name": "Anisotropic Complex-Plasma Simulation",
-      "body": "Developed a Taichi/PyTorch simulation engine for anisotropic complex plasma and reproduced published research. Built experiment-data archiving tools with memU and the Claude-Scientist backend. Completed a national-level undergraduate innovation project and graduation thesis, supporting ISS data-processing work.",
+      "body": "Developed a Taichi/PyTorch physics simulation engine to study anisotropic complex plasma and reproduce methods from the literature. Integrated memU and the Claude-Scientist backend to automate experiment-data archiving. This work formed part of a national-level undergraduate innovation project and my graduation thesis, and supported data-processing tasks related to the International Space Station.",
       "tags": [
         "Taichi",
         "Molecular Dynamics",
@@ -144,7 +144,7 @@
       "year": "2025.07 — 2026.01",
       "role": "Team Lead · Design & Implementation",
       "name": "Agentcraft · AR / AI Glasses",
-      "body": "Designed and implemented a 2D-to-3D interaction pipeline using Tripo3D, 3DGS and AI glasses. Integrated WorldGen and World Labs tools and APIs to validate two prototypes. The team received the Technical Innovation Award at Rokid Spatial Joy 2025.",
+      "body": "Designed and implemented a 2D-to-3D interaction concept using Tripo3D, 3DGS and AI glasses. Integrated WorldGen and World Labs tools and APIs to develop two proof-of-concept prototypes. Led the team to the Technical Innovation Award at the Rokid Spatial Joy 2025 Global AR & AI Development Competition.",
       "tags": [
         "3DGS",
         "AR",
@@ -158,7 +158,7 @@
       "year": "Open source",
       "role": "Research Software · Knowledge Tools",
       "name": "lazy-paper · Research Knowledge Garden",
-      "body": "An open-source research tool that connects paper reading, question development, a searchable literature library and experiment notes. Its pipeline produces bilingual analyses with figures and source references; the knowledge-garden view maps relationships between papers and experiments. The public repository includes the code, usage guide and example outputs.",
+      "body": "An open-source research tool for paper reading, question development, literature search and experiment notes. A staged workflow produces bilingual analyses with figures and source references, while a knowledge-garden view shows connections between papers, questions and experiments. The public repository includes code, a usage guide and example outputs.",
       "tags": [
         "Research Tools",
         "Knowledge Base",
@@ -175,21 +175,21 @@
       "year": "2026.08 —",
       "org": "HKUST (Guangzhou) · PAIRS Lab",
       "role": "Research Intern · Remote / Part-time",
-      "body": "Work on active visual tracking, including visual information compression and combining multiple camera views into a single stream to improve VLA robustness to environmental disturbances. Collected, cleaned and organized the dataset; used Qwen-4B for fine-tuning and data generation, and trained and tested PI0 / PI0.5 on Piper. Preparing a co-first-author submission to RSS 2027, contributing to manuscript writing, real-robot validation and figures."
+      "body": "Contribute to active visual tracking research, exploring visual compression and multi-camera information integration to improve VLA robustness to environmental disturbances. Collected, cleaned and organized data, used Qwen-4B for fine-tuning and data generation, and ran PI0 / PI0.5 training and real-robot tests on Piper. Currently preparing a co-first-author submission to RSS 2027, with contributions to manuscript writing, real-robot validation and figures."
     },
     {
       "id": "evomind",
       "year": "2026.07 —",
       "org": "Shanghai Jiao Tong University · MINT Lab",
       "role": "Robotics Research Intern · Onsite / Full-time",
-      "body": "Adapted starVLA to benchmark tasks, calibrated an extended seven-axis SO101 arm, and collected data and ran training and inference on Piper. Deployed a Jetson Orin and connected Meta Quest 3 teleoperation to OPENARM across separate local networks. Contributed all figures, later-stage writing and detailed review to Evo-RL, submitted to ICRA 2027. Also participated in Learn the Task, Not the Schedule, on reducing spurious coupling in bimanual data, submitted to ICLR 2027."
+      "body": "Studied the starVLA architecture and adapted it to benchmark tasks. Contributed to calibration of an extended seven-axis SO101 arm, as well as data collection, training and inference on Piper. Deployed Jetson Orin and built a data link for Meta Quest 3 teleoperation of OPENARM across separate local networks. Created all figures and contributed later-stage writing and detailed review for Evo-RL, submitted to ICRA 2027. Also contributed to Learn the Task, Not the Schedule, a project on spurious coupling in bimanual data, submitted to ICLR 2027."
     },
     {
       "id": "rokid",
       "year": "2025.09 — 2026.07",
       "org": "Rokid",
       "role": "Campus Ambassador",
-      "body": "Supported AR technical sharing, campus liaison and XR collaboration. Discussed developer and user needs at S-Startup, Google DevFest and AdventureX.",
+      "body": "Contributed to AR technical sharing, campus liaison and XR collaboration. Talked with developers and users at S-Startup, Google DevFest and AdventureX to understand practical needs.",
       "image": "assets/rokid-ambassador.webp",
       "caption": "Rokid campus ambassador appointment · September 2025–July 2026.",
       "tags": [
@@ -203,7 +203,7 @@
       "year": "2025.10 —",
       "org": "南客松 S2 · Fluxverse",
       "role": "Sponsorship Coordination · Community Operations",
-      "body": "Helped organize hackathons through the NJU Maker Club, coordinated sponsorship resources, and supported collaboration in a maker community of more than 500 members."
+      "body": "Help organize hackathons, communicate with sponsors and coordinate resources through the NJU Maker Club, while supporting a maker community of more than 500 members."
     }
   ],
   "education": [
@@ -216,7 +216,7 @@
     {
       "year": "2024.02 — 2026.06",
       "school": "Shanghai Jiao Tong University",
-      "deg": "Mathematics & Applied Mathematics · Cross-university Minor Certificate",
+      "deg": "Mathematics & Applied Mathematics · Cross-university minor (certificate awarded)",
       "courses": "PDEs · Differential Geometry · Topology · Abstract Algebra · Stochastic Processes"
     }
   ],
@@ -239,9 +239,9 @@
     }
   ],
   "openTo": [
-    "Visiting student / research internships",
+    "Visiting student and research internship opportunities",
     "Research collaborations",
-    "Robotics ventures"
+    "Conversations on robotics technology and entrepreneurship"
   ],
   "honors": [
     "Shenzhen InnoX Academy · Selected for the Seed Program — August 2026",
