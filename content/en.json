@@ -259,7 +259,12 @@
     {
       "image": "assets/hackathon-team.webp",
       "alt": "Photo at the Shanghai Jiao Tong University AI Hackathon Tour",
-      "caption": "AI Hackathon Tour · Shanghai Jiao Tong University. A moment from the event."
+      "caption": "AI Hackathon Tour · Shanghai Jiao Tong University. Receiving a certificate for the next round."
+    },
+    {
+      "image": "assets/portrait-piano.jpg",
+      "alt": "Jiedong Zhang playing the piano",
+      "caption": "Outside research · Classical piano."
     }
   ]
 }

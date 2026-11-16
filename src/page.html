@@ -32,6 +32,7 @@
   .section-label{font:12px ui-monospace,monospace;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;}
   .gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
   .gallery-grid figure{margin:0;min-width:0;}
+  .gallery-grid figure:last-child:nth-child(odd){grid-column:1/-1;}
   .gallery-grid img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;display:block;border-radius:3px;border:1px solid var(--line);}
   .honors-section ul{padding-left:18px;line-height:2;font-size:14px;}
   .honors-section li{margin:7px 0;}

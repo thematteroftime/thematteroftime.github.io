@@ -44,3 +44,9 @@ Active-vision, SVSDF and OPENARM summaries were cross-checked against current pr
 - `openarm-platform-reference.webp`: resized from [Enactic/OpenArm’s official README image](https://github.com/enactic/openarm/blob/main/website/static/img/hardware/openarm_and_cell.png). Official platform reference, not a photograph of this author’s deployment. Original source: https://raw.githubusercontent.com/enactic/openarm/main/website/static/img/hardware/openarm_and_cell.png .
 
 All three pictures are shared by the Chinese and English pages, retain their aspect ratios, and have metadata removed. Original project assets are unchanged.
+
+## Keeping CV downloads current
+
+Replace `assets/Resume-English.pdf` and `assets/Resume-Chinese.pdf` with the latest approved exports, then run `python3 scripts/build.py` and publish both generated HTML files. The build derives a download URL version from each PDF’s content hash and includes both hashes in the bilingual page release. Updated PDF content therefore refreshes download links automatically. The version labels are derived from the actual files, not manually entered dates.
+
+The complete supplied piano photograph is also shown in the gallery, alongside the two existing hackathon photographs. The certificate photograph is described as a next-round certificate rather than a competition award.

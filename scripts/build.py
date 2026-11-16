@@ -11,13 +11,18 @@ DATA_KEYS = ('research','projects','experience','education','recent','openTo','g
 template = (ROOT/'src/page.html').read_text()
 shell = (ROOT/'src/bundle.html').read_text()
 # Both language links must enter the same release, even if an older page is cached.
-version = hashlib.sha256((template + shell + (ROOT/'content/en.json').read_text() + (ROOT/'content/zh.json').read_text()).encode()).hexdigest()[:10]
+resume_versions = {
+    path: hashlib.sha256((ROOT/path).read_bytes()).hexdigest()[:12]
+    for path in ('assets/Resume-English.pdf', 'assets/Resume-Chinese.pdf')
+}
+version = hashlib.sha256((template + shell + (ROOT/'content/en.json').read_text() + (ROOT/'content/zh.json').read_text() + json.dumps(resume_versions, sort_keys=True)).encode()).hexdigest()[:10]
 for code, destination in (('en','index.html'), ('zh','zh.html')):
     content = json.loads((ROOT/'content'/f'{code}.json').read_text())
     ui = content['ui']
     values = {k:html.escape(str(v),quote=True) for k,v in ui.items()}
     values['heroName'] = ui['heroName']
     values['otherPage'] = ui['otherPage'] + '?v=' + version
+    values['resumePath'] = html.escape(ui['resumePath'] + '?v=' + resume_versions[ui['resumePath']], quote=True)
     values['researchLabel'] = html.escape(ui['research'])
     values['recentLabel'] = html.escape(ui['recent'])
     values.update({k:json.dumps(content[k],ensure_ascii=False) for k in DATA_KEYS})
