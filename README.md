@@ -32,3 +32,7 @@ Images are resized WebP copies with metadata removed. Original application docum
 - `lazy-paper-garden.webp`: resized from `docs/assets/v119-garden-live.png` in the author’s public [lazy-paper repository](https://github.com/thematteroftime/lazy-paper). Interface example only; library counts are not current research metrics.
 - `rokid-ambassador.webp`: supplied Rokid campus ambassador appointment photograph, September 2025–July 2026, from `c5f8e97ed8eedd6cfdb8b55895a43270.jpg`.
 - The lazy-paper project description follows its public README; it does not claim a publication or measured research outcome.
+
+## Research context refresh (2026-11-16)
+
+Active-vision, SVSDF and OPENARM summaries were cross-checked against current project discussion records. Descriptions cover research questions, personal contributions and engineering work in progress. Internal infrastructure details, unpublished manuscript figures, model weights, experimental videos and unverified performance claims are excluded. CV files are unchanged by this content-only refresh.

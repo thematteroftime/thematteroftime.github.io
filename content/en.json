@@ -70,15 +70,39 @@
   ],
   "projects": [
     {
+      "id": "active-vision",
+      "year": "2026.08 —",
+      "role": "Research · In Progress",
+      "name": "Active Vision & Hierarchical VLA",
+      "body": "Studying how gaze information and visual compression affect VLA behavior, and exploring coordination between high-level visual decisions and low-level action policies. Led dataset collection and cleaning, Qwen-based fine-tuning and data generation, and Piper training and evaluation. Current work focuses on matching training inputs to deployment inputs and recording visual observations, policy outputs and robot feedback for reproducible comparisons.",
+      "tags": [
+        "Gaze",
+        "VLA",
+        "Real-Robot Evaluation"
+      ]
+    },
+    {
       "id": "svsdf",
       "year": "2026.08 —",
       "role": "Research · Reproduction",
       "name": "Shape-Aware Motion Planning",
-      "body": "Reproducing SVSDF collision-free motion planning from FAST Lab open-source code. Completed SE(2) planning for a simulated quadrupedal robot. Currently extending the method to SE(3) quadruped trajectory planning and exploring how planning guidance in multi-task reinforcement-learning environments can promote policy generalization.",
+      "body": "Reproducing SVSDF collision-free motion planning from FAST Lab open-source code. Completed SE(2) planning for a simulated quadrupedal robot; extending the method to SE(3) quadruped trajectories. Current research examines how geometric clearance, orientation and local smoothness should guide trajectory refinement, alongside planning-guided multi-task reinforcement learning for policy generalization.",
       "tags": [
         "SVSDF",
         "Motion Planning",
         "SE(2) / SE(3)"
+      ]
+    },
+    {
+      "id": "openarm",
+      "year": "2026",
+      "role": "Systems Integration · Ongoing",
+      "name": "OPENARM · VR Teleoperation",
+      "body": "Contributed to cross-network teleoperation linking Meta Quest 3 and OPENARM, alongside Jetson Orin deployment and robot-side integration. The engineering work covers connection renewal, session handover, transport diagnostics and command/feedback logging. Ongoing validation examines both communication continuity and physical execution, with a focus on observable, repeatable robot experiments.",
+      "tags": [
+        "OPENARM",
+        "Meta Quest 3",
+        "Jetson Orin"
       ]
     },
     {
