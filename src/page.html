@@ -171,7 +171,7 @@
               <p style="margin:0 0 16px; font-size:16px; line-height:1.64; color:var(--muted); max-width:720px; text-wrap:pretty;">{{ p.body }}</p>
 <sc-if value="{{ p.video }}" hint-placeholder-val="{{ false }}">
                 <figure class="project-figure">
-                  <video class="project-video" data-src="{{ p.video }}" poster="{{ p.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ p.caption }}"></video>
+                  <video class="project-video" data-src="{{ p.video }}" data-poster="{{ p.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ p.caption }}"></video>
                   <figcaption>{{ p.caption }}</figcaption>
                   <a class="video-link" href="{{ p.video }}" target="_blank" rel="noopener">@@openVideo@@</a>
                 </figure>
@@ -284,7 +284,7 @@
 
       <sc-if value="{{ item.video }}" hint-placeholder-val="{{ false }}">
         <figure class="detail-figure">
-          <video class="project-video" data-src="{{ item.video }}" poster="{{ item.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ item.caption }}"></video>
+          <video class="project-video" data-src="{{ item.video }}" data-poster="{{ item.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ item.caption }}"></video>
           <figcaption>{{ item.caption }}</figcaption>
           <a class="video-link" href="{{ item.video }}" target="_blank" rel="noopener">@@openVideo@@</a>
         </figure>
@@ -293,7 +293,7 @@
           <div class="more-videos">
             <sc-for list="{{ item.moreVideos }}" as="clip" hint-placeholder-count="1">
               <figure>
-                <video class="project-video" data-src="{{ clip.video }}" poster="{{ clip.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ clip.caption }}"></video>
+                <video class="project-video" data-src="{{ clip.video }}" data-poster="{{ clip.poster }}" controls="{{ true }}" playsinline muted="{{ true }}" loop="{{ true }}" preload="metadata" aria-label="{{ clip.caption }}"></video>
                 <figcaption>{{ clip.caption }}</figcaption>
                 <a class="video-link" href="{{ clip.video }}" target="_blank" rel="noopener">@@openVideo@@</a>
               </figure>
@@ -447,6 +447,8 @@ class Component extends DCLogic {
   collect(){
     const el=this.rootRef.current; if(!el) return;
     el.querySelectorAll('img[data-src], video[data-src]').forEach(img=>{
+      const poster=img.getAttribute('data-poster');
+      if(poster && !poster.includes('{{') && img.getAttribute('poster')!==poster) img.setAttribute('poster',poster);
       const source=img.getAttribute('data-src');
       if(source && !source.includes('{{') && img.getAttribute('src')!==source) img.setAttribute('src',source);
     });
